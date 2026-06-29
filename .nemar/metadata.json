@@ -1,39 +1,101 @@
 {
   "version": "2.0",
-  "dataset_id": "on006802",
-  "source": "openneuro",
-  "source_id": "ds006802",
+  "pipeline_stage": "validated",
   "title": "Collaborative rule learning promotes interbrain information alignment",
-  "authors": {
-    "Moerel, Denise": {},
-    "Grootswagers, Tijl": {},
-    "Quek, Genevieve L.": {},
-    "Smit, Sophie": {},
-    "Varlet, Manuel": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Moerel, Denise": {
+      "orcid": "0000-0001-9677-0170"
+    },
+    "Grootswagers, Tijl": {
+      "orcid": "0000-0002-7961-5002"
+    },
+    "Quek, Genevieve L.": {
+      "orcid": "0000-0002-5905-8405"
+    },
+    "Smit, Sophie": {
+      "orcid": "0000-0002-5613-277X"
+    },
+    "Varlet, Manuel": {
+      "orcid": "0000-0001-5772-2061"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006802.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1101/2025.01.07.631802",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.17605/OSF.IO/HE4TU",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006802",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006802",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.2",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "Australian Research Council (ARC) Discovery Project awarded to M.V. (DP220103047)"
+      "funder_name": "Australian Research Council",
+      "award_number": "DP220103047",
+      "award_title": "Discovery Project"
     },
     {
-      "funder_name": "ARC Discovery Early Career Researcher Award awarded to T.G. (DE230100380)"
+      "funder_name": "Australian Research Council",
+      "award_number": "DE230100380",
+      "award_title": "Discovery Early Career Researcher Award"
     }
-  ]
+  ],
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "66.8 GB (50 files)"
+  ],
+  "formats": [
+    ".DS_Store",
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises EEG recordings from 24 dyads of participants engaged in collaborative rule learning and categorization tasks. Participants jointly established classification rules for a 4-way categorization task and completed pre- and post-test assessments on identical stimuli. The study investigates interbrain information alignment during collaborative learning, with each experimental session lasting approximately one hour.",
+  "methods_description": "EEG was recorded from 24 pairs of participants during a 1-hour experimental session involving a 4-way categorization task based on collaboratively established rules, with pre- and post-test assessments on the same stimuli.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "collaborative learning"
+    },
+    {
+      "term": "interbrain synchronization"
+    },
+    {
+      "term": "hyperscanning"
+    },
+    {
+      "term": "rule learning"
+    },
+    {
+      "term": "categorization"
+    }
+  ],
+  "source_hash": "3544dd912d2e34097aadce731fc46e54c74bf91d485a0bd149769560c845f290"
 }
