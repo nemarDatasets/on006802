@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Collaborative rule learning promotes interbrain information alignment",
+  "description": "This dataset contains EEG recordings from 24 pairs of participants who performed a collaborative 4-way categorisation task based on rules they agreed upon together, along with pre- and post-test sessions using the same stimuli. The study investigates whether collaborative rule learning promotes alignment of neural information between interacting brains, contributing to research on interbrain synchrony and social cognition.",
+  "methods_description": "EEG was recorded from 24 pairs of participants during a 4-way categorisation task based on jointly agreed rules. Participants also completed pre- and post-tests using the same stimuli. The experiment lasted approximately one hour.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,6 +23,28 @@
       "orcid": "0000-0001-5772-2061"
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "interbrain synchrony"
+    },
+    {
+      "term": "categorization"
+    },
+    {
+      "term": "collaborative learning"
+    },
+    {
+      "term": "Social Cognition",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000083282"
+    },
+    {
+      "term": "rule learning"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006802.v1.0.0",
@@ -30,7 +54,7 @@
     {
       "identifier": "10.1101/2025.01.07.631802",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "10.17605/OSF.IO/HE4TU",
@@ -60,10 +84,10 @@
       "award_title": "Discovery Early Career Researcher Award"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "66.8 GB (50 files)"
   ],
@@ -74,28 +98,6 @@
     ".md",
     ".tsv",
     ".yml"
-  ],
-  "description": "This dataset comprises EEG recordings from 24 dyads of participants engaged in collaborative rule learning and categorization tasks. Participants jointly established classification rules for a 4-way categorization task and completed pre- and post-test assessments on identical stimuli. The study investigates interbrain information alignment during collaborative learning, with each experimental session lasting approximately one hour.",
-  "methods_description": "EEG was recorded from 24 pairs of participants during a 1-hour experimental session involving a 4-way categorization task based on collaboratively established rules, with pre- and post-test assessments on the same stimuli.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "collaborative learning"
-    },
-    {
-      "term": "interbrain synchronization"
-    },
-    {
-      "term": "hyperscanning"
-    },
-    {
-      "term": "rule learning"
-    },
-    {
-      "term": "categorization"
-    }
   ],
   "source_hash": "3544dd912d2e34097aadce731fc46e54c74bf91d485a0bd149769560c845f290"
 }
