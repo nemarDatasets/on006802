@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Collaborative rule learning promotes interbrain information alignment",
-  "description": "This dataset contains EEG recordings from 24 pairs of participants who performed a collaborative 4-way categorisation task based on rules they agreed upon together, along with pre- and post-test sessions using the same stimuli. The study investigates whether collaborative rule learning promotes alignment of neural information between interacting brains, contributing to research on interbrain synchrony and social cognition.",
-  "methods_description": "EEG was recorded from 24 pairs of participants during a 4-way categorisation task based on jointly agreed rules. Participants also completed pre- and post-tests using the same stimuli. The experiment lasted approximately one hour.",
+  "description": "This dataset contains EEG recordings from 24 pairs of participants performing a 4-way categorisation task based on rules they first agreed upon together. Participants also completed pre- and post-tests on the same stimuli. The data were collected to investigate how collaborative rule learning promotes information alignment between interacting brains.",
+  "methods_description": "EEG was recorded simultaneously from 24 pairs of participants during a collaborative 4-way categorisation task following joint rule agreement, with pre- and post-test sessions using the same stimuli. The experiment lasted approximately 1 hour.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -28,21 +28,19 @@
       "term": "EEG"
     },
     {
-      "term": "interbrain synchrony"
+      "term": "hyperscanning"
     },
     {
-      "term": "categorization"
-    },
-    {
-      "term": "collaborative learning"
-    },
-    {
-      "term": "Social Cognition",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000083282"
+      "term": "interbrain alignment"
     },
     {
       "term": "rule learning"
+    },
+    {
+      "term": "categorisation"
+    },
+    {
+      "term": "social interaction"
     }
   ],
   "related_identifiers": [
@@ -89,7 +87,7 @@
     "eeg"
   ],
   "sizes": [
-    "66.8 GB (50 files)"
+    "62.22 GB (50 files)"
   ],
   "formats": [
     ".DS_Store",
